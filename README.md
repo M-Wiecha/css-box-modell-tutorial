@@ -38,7 +38,7 @@ Anstatt das Box-Modell nur theoretisch zu erklären, schachtelt dieses Tutorial 
 ## 🌐 Live-Demo
 
 Du kannst das Tutorial sofort ausprobieren, ohne Code herunterzuladen:
-👉 **[HIER DEINEN GITHUB-PAGES-LINK EINFÜGEN]**
+👉 **[[HIER DEINEN GITHUB-PAGES-LINK EINFÜGEN]](https://m-wiecha.github.io/css-box-modell-tutorial/)**
 
 ---
 
