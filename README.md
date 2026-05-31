@@ -2,6 +2,9 @@
 
 Ein modernes "Learning-by-Doing"-Projekt für Web-Development-Einsteiger. Dieses interaktive Schaubild macht das theoretische CSS Box-Modell visuell greifbar – direkt im Browser und optimiert für alle Endgeräte (PC, Tablet und Smartphone).
 
+> 💻 **Tipp für das beste Lernergebnis:**
+> Obwohl dieses Tutorial komplett responsiv ist und auf dem Smartphone sauber angezeigt wird, solltest du es **am besten am PC oder Laptop nutzen**. Nur so kannst du den Code nebenbei in einem Editor öffnen, Werte verändern und die Experimente aktiv ausprobieren!
+
 ---
 
 ## 🚀 Das Konzept: Verschachtelung verstehen
