@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.description {
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+/* ==========================================
+           2. DAS RESPONSIVE BOX-MODELL (Verschachtelt)
+           ========================================== */
+.box-layer {
+  width: 100%;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Äußerste Schicht: MARGIN */
+.box-margin {
+  background-color: #f1c40f;
+  padding: 30px;
+  border: 2px dashed #d35400;
+}
+
+/* Nächste Schicht: BORDER */
+.box-border {
+  background-color: #34495e;
+  padding: 10px;
+}
+
+/* Nächste Schicht: PADDING */
+.box-padding {
+  background-color: #2ecc71;
+  padding: 25px;
+}
+
+/* Innerster Kern: CONTENT */
+.box-content {
+  background-color: #3498db;
+  width: 100%;
+  min-height: 100px;
+  padding: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================
+           3. TEXT & LABELS
+           ========================================== */
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.box-margin > .label {
+  color: #d35400;
+}
+.box-border > .label {
+  color: #ffffff;
+}
+.box-padding > .label {
+  color: #145a32;
+}
+.box-content > .label {
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.box-border p {
+  color: #ecf0f1;
+}
+.box-padding p {
+  color: #196f3d;
+}
+.box-content p {
+  color: #ffffff;
+}
+
+/* ==========================================
+           4. MEDIA QUERIES (Mobil-Optimierung)
+           ========================================== */
+@media (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
+  .container {
+    padding: 15px 10px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  .box-margin {
+    padding: 15px;
+  }
+  .box-padding {
+    padding: 15px;
+  }
+  .box-content {
+    padding: 10px;
+  }
+  .label {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .box-content > .label {
+    font-size: 0.85rem;
+  }
+}
