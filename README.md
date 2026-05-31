@@ -41,7 +41,7 @@ Anstatt das Box-Modell nur theoretisch zu erklären, schachtelt dieses Tutorial 
 ## 🌐 Live-Demo
 
 Du kannst das Tutorial sofort ausprobieren, ohne Code herunterzuladen:
-👉 <a href="https://m-wiecha.github.io/css-box-modell-tutorial/" target="_blank" rel="noopener noreferrer">Hier geht's zur Live-Demo</a> 🚀
+👉 <a href="https://m-wiecha.github.io/CSS-Box-Modell-Tutorial/" target="_blank" >Hier geht's zur Live-Demo</a> 🚀
 
 ---
 
